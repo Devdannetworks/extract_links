@@ -1,0 +1,10 @@
+[package]
+name = "extract_links"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.11"
+tokio = { version = "1.0", features = ["full"] }
+anyhow = "1.0"
+select = "0.6"
